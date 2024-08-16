@@ -5,6 +5,8 @@ import { Button, Container } from "../components";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";
 
+import "./Post.css"
+
 export default function Post() {
     const [post, setPost] = useState(null);
     const { slug } = useParams();
@@ -55,12 +57,15 @@ export default function Post() {
                         </div>
                     )}
                 </div>
-                <div className="w-full mb-6">
-                    <h1 className="text-2xl font-bold">{post.title}</h1>
-                </div>
-                <div className="browser-css">
-                    {parse(post.content)}
+                <div className="bg-slate-300">
+                    <div className="w-full p-4 flex items-center justify-center">
+                        <h1 className="text-2xl font-bold ">{post.title}</h1>
                     </div>
+                    <div className="line"></div>
+                    <div className="browser-css p-4">
+                        {parse(post.content)}
+                    </div>
+                </div>
             </Container>
         </div>
     ) : null;
