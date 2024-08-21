@@ -34,6 +34,3 @@ Used React Hook Form for handling sign-up and login processes, providing a smoot
 - State Management: Redux
 - Routing: React Router DOM
 - Form Handling: React Hook Form
-
-## Summary 🎯
-Blogging Nation is a modern, user-friendly platform designed to make blogging accessible and enjoyable. With a focus on a clean design, rich text editing, and secure authentication, it provides everything needed to create and share blog content seamlessly.
