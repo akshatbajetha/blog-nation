@@ -34,4 +34,3 @@ Used React Hook Form for handling sign-up and login processes, providing a smoot
 - State Management: Redux
 - Routing: React Router DOM
 - Form Handling: React Hook Form
-.
